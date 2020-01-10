@@ -1,0 +1,11 @@
+<p>servers list!</p>
+<button 
+  class="btn btn-primary" 
+  [disabled]="!allowNewServer"
+>
+  Add Server
+</button>
+<h4 [innerText]="allowNewServer"></h4>
+<h4>{{allowNewServer}}</h4>
+<app-server></app-server>
+<app-server></app-server>
